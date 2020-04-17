@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/kirov-opensource/NExcel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kirov-opensource/NExcel</RepositoryUrl>
+    <PackageTags>excel</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Authors>kirov-opensource</Authors>
+    <Company>kirov-opensource</Company>
+    <Product>Excel</Product>
+    <Description>Excel For NPOI</Description>
+    <Copyright>Copyright © kirov-opensource 2020</Copyright>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.5.1" />
+  </ItemGroup>
+</Project>
